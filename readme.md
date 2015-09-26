@@ -1,5 +1,8 @@
-#query
-query is all about how we get data, it builds on the core ideals of simplicity and meeting a single goal by providing a flexibile and extensible overlay for querying databases. It's about simplify the way in which we get our data from these database endpoints.
+#DataQuery
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/influx6/dataquery)
+[![Travis]](https://travis-ci.org/influx6/dataquery.svg?branch=master)
+
+Dataquery is all about how we get data, it builds on the core ideals of simplicity and meeting a single goal by providing a flexibile and extensible overlay for querying databases. It's about simplify the way in which we get our data from these database endpoints.
 
 ##Ideas
   These are simple ideas that power query underneath and provide the basis for its operations
