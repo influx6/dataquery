@@ -1,6 +1,6 @@
 #DataQuery
 [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/influx6/dataquery)
-[![Travis](https://travis-ci.org/influx6/dataquery.svg?branch=master)]
+[![Travis](https://travis-ci.org/influx6/dataquery.svg?branch=master)](https://travis-ci.org/influx6/assets)
 
 Dataquery is all about how we get data, it builds on the core ideals of simplicity and meeting a single goal by providing a flexibile and extensible overlay for querying databases. It's about simplify the way in which we get our data from these database endpoints.
 
