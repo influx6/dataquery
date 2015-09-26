@@ -1,0 +1,12 @@
+users(){
+  id,
+  name,
+  age,
+  street,
+  stamp,
+  photos(with: [user_id id]){
+    url,
+    user_id,
+    id,
+  },
+}

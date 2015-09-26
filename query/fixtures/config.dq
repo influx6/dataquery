@@ -1,0 +1,25 @@
+{
+  user(id: 4000){
+    name,
+    state,
+    address,
+    skills(range: 30..100),
+    age(lt:30, gte:40),
+    age(is: 20),
+    day(isnot: wednesday),
+    photos(width: 400){
+      day,
+      fax,
+    },
+  },
+  admin(id:4,rack:10){
+    name,
+    email,
+    group,
+    levels,
+    permissions(){
+      code,
+      active,
+    },
+  },
+}
