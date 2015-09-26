@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/influx6/dataquery/parser"
+	"github.com/influx6/data/query/parser"
 )
 
 //SQLSimpleSelect defines a standard sql query format

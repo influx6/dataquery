@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/influx6/dataquery/parser"
+	"github.com/influx6/data/query/parser"
 	"github.com/influx6/ds"
 	"github.com/influx6/flux"
 )

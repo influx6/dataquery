@@ -1,5 +1,5 @@
-package dataquery
+package query
 
 import "github.com/op/go-logging"
 
-var log = logging.MustGetLogger("DataQuery")
+var log = logging.MustGetLogger("query")

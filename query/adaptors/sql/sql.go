@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/influx6/dataquery/adaptors"
-	"github.com/influx6/dataquery/parser"
+	"github.com/influx6/data/query/adaptors"
+	"github.com/influx6/data/query/parser"
 	"github.com/influx6/ds"
 	"github.com/influx6/flux"
 )

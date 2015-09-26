@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/influx6/dataquery/utils"
+	"github.com/influx6/data/query/utils"
 	ds "github.com/influx6/ds"
 )
 
@@ -70,7 +70,7 @@ func (p *ParseNode) String() string {
 	return strings.Join(smp, "")
 }
 
-// Parser represents the baseline parser for dataquery
+// Parser represents the baseline parser for query
 type Parser struct {
 	inspect *InspectionFactory
 	skip    int

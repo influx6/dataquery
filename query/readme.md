@@ -1,8 +1,8 @@
-#DataQuery
-Dataquery is all about how we get data, it builds on the core ideals of simplicity and meeting a single goal by providing a flexibile and extensible overlay for querying databases. It's about simplify the way in which we get our data from these database endpoints.
+#query
+query is all about how we get data, it builds on the core ideals of simplicity and meeting a single goal by providing a flexibile and extensible overlay for querying databases. It's about simplify the way in which we get our data from these database endpoints.
 
 ##Ideas
-  These are simple ideas that power dataquery underneath and provide the basis for its operations
+  These are simple ideas that power query underneath and provide the basis for its operations
 
   - Adaptors
 
@@ -42,7 +42,7 @@ Dataquery is all about how we get data, it builds on the core ideals of simplici
 
   - Compound Query
 
-  Since dataquery treats all information between the 'record_name(){...}' format as a single query, this allows compound queries be build and treated as seperate query graphs by the parser, it pieces out each sub-query according to the governing format rules then sends each query graph for processes to the connected adaptor, basically batching query requests
+  Since query treats all information between the 'record_name(){...}' format as a single query, this allows compound queries be build and treated as seperate query graphs by the parser, it pieces out each sub-query according to the governing format rules then sends each query graph for processes to the connected adaptor, basically batching query requests
 
 	      ```go
 
@@ -86,9 +86,9 @@ Dataquery is all about how we get data, it builds on the core ideals of simplici
 
    	_ "github.com/go-sql-driver/mysql"
 
-   	sqlap "github.com/influx6/dataquery/adaptors/sql"
-   	"github.com/influx6/dataquery/adaptors"
-   	"github.com/influx6/dataquery/parser"
+   	sqlap "github.com/influx6/data/query/adaptors/sql"
+   	"github.com/influx6/data/query/adaptors"
+   	"github.com/influx6/data/query/parser"
    	"github.com/influx6/flux"
    )
 
